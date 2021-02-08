@@ -119,6 +119,23 @@ li a:hover {
 }
 
 
+
+.rotate {
+    display: inline-block;
+    -webkit-animation: rotate 45s linear infinite;
+    animation: rotate 45s linear infinite;
+}
+		 
+		 
+			    
+		@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+			}}	   
+
 </style>
 </head>
 
@@ -130,7 +147,11 @@ li a:hover {
     
     
 
-      <a href="websketches.html" ><img src="SITE PORTAL.svg" class="center"> </a>
+      <a href="websketches.html" >
+         
+        <div class="rotate"><img src="SITE PORTAL.svg" class="center" width="900px" height="auto"></div>
+        
+        </a>
         
          
 
